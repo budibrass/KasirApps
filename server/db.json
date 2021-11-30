@@ -1,0 +1,299 @@
+{
+  "menus": [
+    {
+      "id": 1,
+      "category_id": 1,
+      "category_name": "foods",
+      "name": "Sate Ayam",
+      "price": 25000,
+      "img_url": "https://1.bp.blogspot.com/-KT3TQlKWeTo/XWY2kzAtWgI/AAAAAAAAAEc/auS3ghJFA7A7F_iiONSpCuAGxtm6BzeNwCLcBGAs/w920-h400-p-k-no-nu/how%2Bto%2Bmake%2Bsatay%2Bindonesian%2Bfood.jpg"
+    },
+    {
+      "id": 2,
+      "category_id": 1,
+      "category_name": "foods",
+      "name": "Soto",
+      "price": 25000,
+      "img_url": "https://asianfoodnetwork.com/content/dam/afn/global/en/recipes/soto-ayem/AFN_soto_ayam_main_image.jpg"
+    },
+    {
+      "id": 3,
+      "category_id": 1,
+      "category_name": "foods",
+      "name": "Bakso",
+      "price": 25000,
+      "img_url": "https://awsimages.detik.net.id/community/media/visual/2018/11/12/21691c71-6f05-46a5-9793-793bcd6e7c08.jpeg?w=1200"
+    },
+    {
+      "id": 4,
+      "category_id": 2,
+      "category_name": "drinks",
+      "name": "Boba",
+      "price": 13000,
+      "img_url": "https://asset.kompas.com/crops/MdfnWde2Awyb0xYIm6Tcx2T75YI=/0x0:1000x667/780x390/data/photo/2019/09/26/5d8c4fff5f34c.jpg"
+    },
+    {
+      "id": 5,
+      "category_id": 2,
+      "category_name": "drinks",
+      "name": "Ice Cream",
+      "price": 25000,
+      "img_url": "https://asset.kompas.com/crops/ve_TOAOVA0hQw2nT8FEejeqwpA4=/16x36:1226x843/750x500/data/photo/2021/03/16/60505271b28ea.jpg"
+    },
+    {
+      "id": 6,
+      "category_id": 2,
+      "category_name": "drinks",
+      "name": "Thai Tea",
+      "price": 15000,
+      "img_url": "https://assets.pikiran-rakyat.com/crop/0x0:0x0/750x500/photo/2020/09/12/3918509625.jpg"
+    },
+    {
+      "id": 7,
+      "category_id": 3,
+      "category_name": "snacks",
+      "name": "Pisang Toping",
+      "price": 20000,
+      "img_url": "https://img-global.cpcdn.com/recipes/1813b62c3f0d65e6/751x532cq70/pisang-nugget-glaze-foto-resep-utama.jpg"
+    },
+    {
+      "id": 8,
+      "category_id": 3,
+      "category_name": "snacks",
+      "name": "Sosis Bakar",
+      "price": 20000,
+      "img_url": "https://cdn0-production-images-kly.akamaized.net/RaQbYu0JZseMfCLSYQGTL0OIq3Q=/673x379/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/2599286/original/000680500_1546719059-resep-super-gampang-sosis-bakar-pedas-manis-mayonaise.jpg"
+    },
+    {
+      "id": 9,
+      "category_id": 3,
+      "category_name": "snacks",
+      "name": "Martabak",
+      "price": 20000,
+      "img_url": "https://s3.theasianparent.com/cdn-cgi/image/width=1200,fit=crop/tap-assets-prod/wp-content/uploads/sites/24/2020/06/resep-martabak-manis-featured-650x339.jpg"
+    },
+    {
+      "id": 10,
+      "category_id": 3,
+      "category_name": "snacks",
+      "name": "Pentol",
+      "price": "15000",
+      "img_url": "https://mmc.tirto.id/image/otf/500x0/2019/07/09/cireng-istockphoto-copy_ratio-16x9.jpg"
+    }
+  ],
+  "orders": [],
+  "history": [
+    {
+      "created_at": "01-01-2022",
+      "orders": [
+        {
+          "product_id": 4,
+          "name": "Boba",
+          "amount": 2,
+          "category_id": 2,
+          "category_name": "drinks",
+          "price": 13000,
+          "total_price": 26000,
+          "img_url": "https://asset.kompas.com/crops/MdfnWde2Awyb0xYIm6Tcx2T75YI=/0x0:1000x667/780x390/data/photo/2019/09/26/5d8c4fff5f34c.jpg",
+          "id": 1
+        },
+        {
+          "product_id": 5,
+          "name": "Ice Cream",
+          "amount": 1,
+          "category_id": 2,
+          "category_name": "drinks",
+          "price": 25000,
+          "total_price": 25000,
+          "img_url": "https://asset.kompas.com/crops/ve_TOAOVA0hQw2nT8FEejeqwpA4=/16x36:1226x843/750x500/data/photo/2021/03/16/60505271b28ea.jpg",
+          "id": 2
+        }
+      ],
+      "id": 1
+    },
+    {
+      "created_at": "01-01-2022",
+      "orders": [
+        {
+          "product_id": 7,
+          "name": "Pisang Toping",
+          "amount": 3,
+          "category_id": 3,
+          "category_name": "snacks",
+          "price": 20000,
+          "total_price": 60000,
+          "img_url": "https://img-global.cpcdn.com/recipes/1813b62c3f0d65e6/751x532cq70/pisang-nugget-glaze-foto-resep-utama.jpg",
+          "id": 1
+        },
+        {
+          "product_id": 8,
+          "name": "Sosis Bakar",
+          "amount": 1,
+          "category_id": 3,
+          "category_name": "snacks",
+          "price": 20000,
+          "total_price": 20000,
+          "img_url": "https://cdn0-production-images-kly.akamaized.net/RaQbYu0JZseMfCLSYQGTL0OIq3Q=/673x379/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/2599286/original/000680500_1546719059-resep-super-gampang-sosis-bakar-pedas-manis-mayonaise.jpg",
+          "id": 2
+        }
+      ],
+      "id": 2
+    },
+    {
+      "created_at": "01-01-2022",
+      "orders": [
+        {
+          "product_id": 4,
+          "name": "Boba",
+          "amount": 1,
+          "category_id": 2,
+          "category_name": "drinks",
+          "price": 13000,
+          "total_price": 13000,
+          "img_url": "https://asset.kompas.com/crops/MdfnWde2Awyb0xYIm6Tcx2T75YI=/0x0:1000x667/780x390/data/photo/2019/09/26/5d8c4fff5f34c.jpg",
+          "id": 1
+        },
+        {
+          "product_id": 8,
+          "name": "Sosis Bakar",
+          "amount": 1,
+          "category_id": 3,
+          "category_name": "snacks",
+          "price": 20000,
+          "total_price": 20000,
+          "img_url": "https://cdn0-production-images-kly.akamaized.net/RaQbYu0JZseMfCLSYQGTL0OIq3Q=/673x379/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/2599286/original/000680500_1546719059-resep-super-gampang-sosis-bakar-pedas-manis-mayonaise.jpg",
+          "id": 2
+        }
+      ],
+      "id": 3
+    },
+    {
+      "created_at": "01-01-2022",
+      "orders": [
+        {
+          "product_id": 1,
+          "name": "Sate Ayam",
+          "amount": 2,
+          "category_id": 1,
+          "category_name": "foods",
+          "price": 25000,
+          "total_price": 50000,
+          "img_url": "https://1.bp.blogspot.com/-KT3TQlKWeTo/XWY2kzAtWgI/AAAAAAAAAEc/auS3ghJFA7A7F_iiONSpCuAGxtm6BzeNwCLcBGAs/w920-h400-p-k-no-nu/how%2Bto%2Bmake%2Bsatay%2Bindonesian%2Bfood.jpg",
+          "id": 1
+        }
+      ],
+      "id": 4
+    },
+    {
+      "created_at": "01-01-2022",
+      "orders": [
+        {
+          "category_id": 2,
+          "category_name": "drinks",
+          "name": "Boba",
+          "price": 13000,
+          "img_url": "https://asset.kompas.com/crops/MdfnWde2Awyb0xYIm6Tcx2T75YI=/0x0:1000x667/780x390/data/photo/2019/09/26/5d8c4fff5f34c.jpg",
+          "amount": 3,
+          "product_id": 4,
+          "total_price": 39000,
+          "id": 1
+        },
+        {
+          "category_id": 3,
+          "category_name": "snacks",
+          "name": "Martabak",
+          "price": 20000,
+          "img_url": "https://s3.theasianparent.com/cdn-cgi/image/width=1200,fit=crop/tap-assets-prod/wp-content/uploads/sites/24/2020/06/resep-martabak-manis-featured-650x339.jpg",
+          "amount": 1,
+          "product_id": 9,
+          "total_price": 20000,
+          "id": 2
+        },
+        {
+          "category_id": 3,
+          "category_name": "snacks",
+          "name": "Martabak",
+          "price": 20000,
+          "img_url": "https://s3.theasianparent.com/cdn-cgi/image/width=1200,fit=crop/tap-assets-prod/wp-content/uploads/sites/24/2020/06/resep-martabak-manis-featured-650x339.jpg",
+          "amount": 1,
+          "product_id": 9,
+          "total_price": 20000,
+          "id": 3
+        },
+        {
+          "category_id": 3,
+          "category_name": "snacks",
+          "name": "Sosis Bakar",
+          "price": 20000,
+          "img_url": "https://cdn0-production-images-kly.akamaized.net/RaQbYu0JZseMfCLSYQGTL0OIq3Q=/673x379/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/2599286/original/000680500_1546719059-resep-super-gampang-sosis-bakar-pedas-manis-mayonaise.jpg",
+          "amount": 1,
+          "product_id": 8,
+          "total_price": 20000,
+          "id": 4
+        },
+        {
+          "category_id": 3,
+          "category_name": "snacks",
+          "name": "Pisang Toping",
+          "price": 20000,
+          "img_url": "https://img-global.cpcdn.com/recipes/1813b62c3f0d65e6/751x532cq70/pisang-nugget-glaze-foto-resep-utama.jpg",
+          "amount": 1,
+          "product_id": 7,
+          "total_price": 20000,
+          "id": 5
+        }
+      ],
+      "id": 5
+    },
+    {
+      "created_at": "01-01-2022",
+      "orders": [
+        {
+          "category_id": 3,
+          "category_name": "snacks",
+          "name": "Martabak",
+          "price": 20000,
+          "img_url": "https://s3.theasianparent.com/cdn-cgi/image/width=1200,fit=crop/tap-assets-prod/wp-content/uploads/sites/24/2020/06/resep-martabak-manis-featured-650x339.jpg",
+          "amount": 1,
+          "product_id": 9,
+          "total_price": 20000,
+          "id": 2
+        },
+        {
+          "category_id": 3,
+          "category_name": "snacks",
+          "name": "Martabak",
+          "price": 20000,
+          "img_url": "https://s3.theasianparent.com/cdn-cgi/image/width=1200,fit=crop/tap-assets-prod/wp-content/uploads/sites/24/2020/06/resep-martabak-manis-featured-650x339.jpg",
+          "amount": 1,
+          "product_id": 9,
+          "total_price": 20000,
+          "id": 3
+        },
+        {
+          "category_id": 3,
+          "category_name": "snacks",
+          "name": "Sosis Bakar",
+          "price": 20000,
+          "img_url": "https://cdn0-production-images-kly.akamaized.net/RaQbYu0JZseMfCLSYQGTL0OIq3Q=/673x379/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/2599286/original/000680500_1546719059-resep-super-gampang-sosis-bakar-pedas-manis-mayonaise.jpg",
+          "amount": 1,
+          "product_id": 8,
+          "total_price": 20000,
+          "id": 4
+        },
+        {
+          "category_id": 3,
+          "category_name": "snacks",
+          "name": "Pisang Toping",
+          "price": 20000,
+          "img_url": "https://img-global.cpcdn.com/recipes/1813b62c3f0d65e6/751x532cq70/pisang-nugget-glaze-foto-resep-utama.jpg",
+          "amount": 1,
+          "product_id": 7,
+          "total_price": 20000,
+          "id": 5
+        }
+      ],
+      "id": 6
+    }
+  ]
+}
